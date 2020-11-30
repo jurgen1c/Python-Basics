@@ -44,7 +44,7 @@ class linked_list:
   def erase(self, index):
     if index >= self.length():
       print("ERROR: 'Erase' Index out of range!")
-      return
+      return None
     current_index = 0
     current_node = self.head
     while True:
